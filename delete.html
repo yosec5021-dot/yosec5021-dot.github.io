@@ -20,31 +20,33 @@
 <p class="langs"><a href="#en">English</a></p>
 <h1>계정 · 데이터 삭제</h1>
 <p class="meta">달려라 막차: 좀비 디펜스 (Last Train Run: Zombie Defense) · 개발자 YOSEC · 앱 패키지 com.yosec.lasttrainrun</p>
-<div class="summary"><b>지금 버전</b>
-<p>게임 기록은 모두 이용자 기기 안에만 저장되며 서버에 남는 것이 없습니다. 아래 방법 1로 지우면 모든 기록이 사라집니다.</p></div>
+<div class="summary"><b>지금 버전 (0.26.0)</b>
+<p>만 14세 이상이라고 답한 이용자의 게임 기록은 기기와 함께 Unity 서버에도 백업되고(클라우드 저장), 랭킹과 연합에도 쓰입니다. 서버의 계정과 기록은 게임 안에서 바로 지울 수 있고(방법 1), 앱이 없으면 이메일로 요청할 수 있습니다(방법 2).</p></div>
 
 <h2>방법 1 · 게임 안에서 지우기</h2>
 <ol>
 <li>게임 홈 화면 오른쪽 위의 톱니(설정)를 누릅니다.</li>
-<li>「게임」 탭에서 <b>데이터 초기화</b>를 누르고, 한 번 더 눌러 확인합니다.</li>
-<li>이 기기의 진행 · 재화 · 장비 · 설정이 모두 지워지고 게임이 처음 상태로 돌아갑니다.</li>
+<li><b>서버의 계정과 기록:</b> 「지원」 탭 → <b>계정 삭제</b> → <b>삭제</b>. 서버에 있는 게임 계정 · 클라우드 저장 기록과 백업 · 기기 변경 코드가 바로 지워지고, 연합에서 빠지며 연합 채팅에 쓴 글도 바로 지워집니다. 역대 랭킹 기록은 5일 안에 지워집니다. 이 기기의 기록은 남습니다.</li>
+<li><b>이 기기의 기록:</b> 「게임」 탭 → <b>데이터 초기화</b>를 누르고 한 번 더 눌러 확인합니다. 진행 · 재화 · 장비 · 설정이 모두 지워지고 게임이 처음 상태로 돌아갑니다. 계정을 지우지 않았다면 서버의 지금 기록도 처음 상태로 바뀌고, 초기화 직전 기록은 서버 백업에 남습니다(실수로 초기화했을 때 문의로 되살릴 수 있음).</li>
 </ol>
-<p>앱을 지워도 기기에 저장된 게임 기록이 함께 지워집니다. 온라인 기능(클라우드 저장 · 랭킹 · 채팅)이 들어간 버전부터는 같은 설정 화면에서 서버의 계정과 기록도 함께 삭제를 요청할 수 있습니다.</p>
+<p>둘 다 하면 모든 기록이 사라집니다. 앱을 지우면 기기의 기록은 지워지지만 서버의 계정과 기록은 남으니, 앱을 지우기 전에 계정 삭제를 먼저 하거나 방법 2로 요청해 주세요.</p>
 
 <h2>방법 2 · 앱 없이 이메일로 요청하기</h2>
 <p><a href="mailto:yosec5021@gmail.com">yosec5021@gmail.com</a> 으로 아래 내용을 보내 주세요. 받은 날부터 7일 안에 지우고 결과를 답장합니다.</p>
 <ul>
 <li>제목: 달려라 막차 계정 삭제 요청</li>
-<li>게임 안 내 ID (설정 → 지원 → 내 ID). 모르면 별명과 마지막으로 접속한 날짜</li>
+<li>게임 안 내 ID (설정 → 지원 → 내 ID → 복사. 서버 계정 ID가 함께 복사됩니다). 서버의 계정은 익명이라 이 ID나 기기 변경 코드가 있어야 찾을 수 있습니다. 둘 다 없으면 별명과 마지막으로 접속한 날짜를 알려 주시면 최대한 찾아봅니다.</li>
 </ul>
 
 <h2>지워지는 정보와 남는 정보</h2>
 <div class="tbl"><table class="stack">
 <thead><tr><th>구분</th><th>정보</th><th>보관</th></tr></thead>
 <tbody>
-<tr><td data-label="구분" class="k">지워짐</td><td data-label="정보">게임 계정 ID, 별명, 클라우드 저장 기록, 랭킹 기록, 우편, 채팅 메시지, 오류 · 이용 통계</td><td data-label="보관">요청을 처리할 때 바로</td></tr>
+<tr><td data-label="구분" class="k">지워짐</td><td data-label="정보">게임 계정 ID, 별명, 클라우드 저장 기록과 백업, 기기 변경 코드, 랭킹 기록, 연합 멤버 정보 · 연합 채팅 글 · 공동 보스 기록, 우편, 오류 · 이용 통계</td><td data-label="보관">게임 안 계정 삭제는 누르는 즉시(역대 랭킹 기록과 운영자가 보낸 우편은 운영 도구가 5일 안에), 이메일 요청은 처리할 때 바로</td></tr>
+<tr><td data-label="구분" class="k">익명으로 남음</td><td data-label="정보">지난주 랭킹 보관본의 줄(별명 없이 익명 ID · 기록 · 아이콘 · 레벨 · 칭호)</td><td data-label="보관">Unity 순위 서비스는 보관본의 줄을 따로 지우지 못합니다. 계정을 지우면 누구의 기록인지 알 수 없게 됩니다</td></tr>
 <tr><td data-label="구분" class="k">남음</td><td data-label="정보">구매 기록(주문 번호 · 상품 · 구매 시각)</td><td data-label="보관">「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 5년 보관 뒤 파기</td></tr>
-<tr><td data-label="구분" class="k">남음</td><td data-label="정보">신고 처리 기록</td><td data-label="보관">처리한 날부터 1년 뒤 파기</td></tr>
+<tr><td data-label="구분" class="k">남음</td><td data-label="정보">신고 처리 기록(신고된 글의 앞부분과 보낸 사람의 별명 포함)</td><td data-label="보관">처리한 날부터 1년 뒤 파기</td></tr>
+<tr><td data-label="구분" class="k">남음</td><td data-label="정보">운영 조치 기록(시각 · 플레이어 ID · 한 일 · 까닭)</td><td data-label="보관">기록한 날부터 1년 뒤 파기</td></tr>
 <tr><td data-label="구분" class="k">남음</td><td data-label="정보">이메일 문의 기록</td><td data-label="보관">답변을 마친 날부터 1년(결제 관련 3년) 뒤 파기</td></tr>
 </tbody></table></div>
 <p class="note">Google Play의 결제 기록은 Google이 자기 정책에 따라 보관합니다. 지운 게임 기록(진행 · 재화 · 장비)은 되살릴 수 없습니다.</p>
@@ -54,19 +56,19 @@
 <p class="langs"><a href="#top">한국어</a></p>
 <h1>Delete account &amp; data</h1>
 <p class="meta">Last Train Run: Zombie Defense (달려라 막차: 좀비 디펜스) · Developer YOSEC · Package com.yosec.lasttrainrun</p>
-<div class="summary"><b>Current version</b>
-<p>All game data is stored only on your device and nothing is kept on a server. Option 1 below removes everything.</p></div>
+<div class="summary"><b>Current version (0.26.0)</b>
+<p>If you say you are 14 or older, your game data is also backed up to Unity’s servers (cloud save) and used for leaderboards and guilds. You can delete the server account and data right away in the game (option 1) or by e-mail without the app (option 2).</p></div>
 <h2>Option 1 · In the game</h2>
 <ol>
 <li>Tap the gear icon (Settings) at the top right of the home screen.</li>
-<li>On the “Game” tab, tap <b>Reset data</b>, then tap again to confirm.</li>
-<li>All progress, currencies, gear and settings on this device are deleted and the game starts over.</li>
+<li><b>Server account and data:</b> “Support” tab → <b>Delete account</b> → <b>Delete</b>. Your game account, cloud save and backups, and transfer code on the server are deleted right away; you leave your guild and your guild chat lines are removed at once. All-time leaderboard records are deleted within 5 days. Data on this device stays.</li>
+<li><b>Data on this device:</b> “Game” tab → <b>Reset data</b>, then tap again to confirm. All progress, currencies, gear and settings are deleted and the game starts over. If you did not delete the account, your current server save is reset too, and the save from just before the reset stays in the server backup (so a mistaken reset can be undone if you contact us).</li>
 </ol>
-<p>Uninstalling the app also removes the game data stored on the device. From the version that adds online features (cloud save, leaderboards, chat), the same settings screen will also let you request deletion of your server account and records.</p>
+<p>Doing both removes everything. Uninstalling the app removes the data on the device but not the server account, so delete the account first or use option 2.</p>
 <h2>Option 2 · By e-mail, without the app</h2>
-<p>Send an e-mail to <a href="mailto:yosec5021@gmail.com">yosec5021@gmail.com</a> with the subject “Last Train Run account deletion” and your in-game ID (Settings → Support → My ID), or your nickname and the date you last played. We delete the data within 7 days and reply.</p>
+<p>Send an e-mail to <a href="mailto:yosec5021@gmail.com">yosec5021@gmail.com</a> with the subject “Last Train Run account deletion” and your in-game ID (Settings → Support → My ID → Copy; the server account ID is copied too). The server account is anonymous, so we need this ID or your transfer code to find it; without either, send your nickname and the date you last played and we will do our best. We delete the data within 7 days and reply.</p>
 <h2>What is deleted and what is kept</h2>
-<p><b>Deleted:</b> game account ID, nickname, cloud save, leaderboard records, mail, chat messages, crash and usage statistics.<br><b>Kept:</b> purchase records (order number, item, time) for 5 years as required by Korean e-commerce consumer protection law; report handling records for 1 year; e-mail inquiries for 1 year after we reply (3 years if payment-related). Google keeps its own Google Play payment records under its policy. Deleted game data cannot be recovered.</p>
+<p><b>Deleted:</b> game account ID, nickname, cloud save and backups, transfer code, leaderboard records, guild membership, guild chat lines and guild boss records, mail, crash and usage statistics (right away when you delete in the game; all-time leaderboard records and mail we sent to the account within 5 days).<br><b>Left anonymous:</b> lines in last week’s leaderboard archives (no nickname — only the anonymous ID, records, icon, level and title). Unity’s leaderboard service cannot delete single lines from an archive; once your account is deleted nobody can tell whose record it was.<br><b>Kept:</b> purchase records (order number, item, time) for 5 years as required by Korean e-commerce consumer protection law; report handling records (including the start of the reported message and the sender’s nickname) for 1 year; our operations log (time, player ID, action, reason) for 1 year; e-mail inquiries for 1 year after we reply (3 years if payment-related). Google keeps its own Google Play payment records under its policy. Deleted game data cannot be recovered.</p>
 </section>
 </main>
 <footer class="foot"><div class="foot-inner">
