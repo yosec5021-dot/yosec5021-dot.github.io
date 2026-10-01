@@ -70,6 +70,7 @@ hr.sep { border: 0; border-top: 2px dashed var(--line); margin: 60px 0 26px; }
 .card:hover { border-color: var(--accent); }
 .card b { display: block; font-size: 16px; }
 .card span { display: block; font-size: 13px; color: var(--muted); }
+pre.lic { white-space: pre-wrap; overflow-wrap: anywhere; word-break: normal; font: 13px/1.6 ui-monospace, Consolas, "D2Coding", monospace; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin: 12px 0; }
 @media (max-width: 600px) {
   h1 { font-size: 25px; }
   table.stack thead { display: none; }
